@@ -1,0 +1,38 @@
+/* HomePage.css */
+
+.home-page {
+  font-family: Arial, sans-serif;
+  background-color: #f5f0e1;
+  padding-bottom: 90px; /* Adjust to leave space for the 70px navigation */
+  min-height: 100vh;
+  overflow-y: auto;
+}
+
+/* Header Section to match LikesPage */
+.home-header {
+  background-color: #CBBCA6; /* Beige color */
+  padding: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.app-name {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+}
+
+.icon {
+  font-size: 20px;
+  cursor: pointer;
+}
+
+/* Posts container */
+.posts-container {
+  padding: 16px;
+}

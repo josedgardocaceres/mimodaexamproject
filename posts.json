@@ -1,0 +1,22 @@
+{
+  "posts": [
+    {
+      "username": "lokke_lund",
+      "image": "/images/user1.jpg",
+      "caption": "school outfit 😎 #københavn #thrifted #casual #salomon #gorpcore",
+      "likes": 1987,
+      "comments": 24,
+      "time_ago": "19 hours ago",
+      "following": true
+    },
+    {
+      "username": "josejensen",
+      "image": "/images/user2.jpg",
+      "caption": "last nights outfit 🌐 #stockholm #cowboyboots",
+      "likes": 680,
+      "comments": 12,
+      "time_ago": "8 hours ago",
+      "following": true
+    }
+  ]
+}

@@ -1,0 +1,96 @@
+/* ProfilePage.css */
+
+.profile-page {
+  font-family: Arial, sans-serif;
+  padding: 16px;
+  background-color: #f5f0e1;
+}
+
+.profile-header {
+  background-color: #e0b4a1;
+  padding: 16px;
+  border-radius: 8px;
+  margin-bottom: 16px;
+  text-align: center;
+}
+
+.profile-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.profile-logo {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.profile-settings {
+  font-size: 20px;
+}
+
+.profile-info {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 16px;
+}
+
+.profile-pic {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  margin-bottom: 8px;
+}
+
+.profile-details h2 {
+  font-size: 18px;
+  margin: 8px 0;
+  font-weight: bold;
+}
+
+.profile-stats {
+  display: flex;
+  gap: 16px;
+  font-size: 14px;
+}
+
+.profile-count {
+  font-weight: bold;
+  display: block;
+}
+
+.profile-tabs {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  margin-top: 16px;
+}
+
+.tab {
+  padding: 8px 16px;
+  background-color: #CBBCA6;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.tab.active {
+  background-color: #fff;
+  font-weight: bold;
+}
+
+.posts-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 8px;
+  margin-top: 16px;
+}
+
+.post-thumbnail {
+  width: 100%;
+  aspect-ratio: 1;
+  border-radius: 8px;
+  object-fit: cover;
+}

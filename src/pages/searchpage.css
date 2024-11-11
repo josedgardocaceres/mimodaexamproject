@@ -1,0 +1,157 @@
+/* Ensuring that the main container can scroll */
+.search-page {
+  min-height: 100vh; /* Allows the page to extend beyond the viewport */
+  overflow-y: auto;  /* Enables scrolling for the page */
+  font-family: Arial, sans-serif;
+  color: #333;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 20px; /* Adds space at the bottom */
+}
+
+/* Header Section with Beige Background */
+.search-header {
+  background-color: #CBBCA6; /* Beige color */
+  padding: 16px;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  position: sticky; /* Keeps header fixed at the top */
+  top: 0;
+  z-index: 1000;
+}
+
+.app-name {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+}
+
+.search-input {
+  flex-grow: 1;
+  padding: 10px;
+  border: 1px solid #333;
+  border-radius: 8px;
+  outline: none;
+  font-size: 14px;
+}
+
+/* Section Header */
+.section-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px 16px 0;
+}
+
+.section-header h2 {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.see-more {
+  font-size: 24px;
+  color: #333;
+  text-decoration: none;
+}
+
+.section-subtitle {
+  font-size: 14px;
+  color: #666;
+  margin: 4px 16px 16px;
+}
+
+/* Featured Users Section */
+.featured-users {
+  display: flex;
+  gap: 16px;
+  overflow-x: auto;
+  padding-bottom: 8px;
+  margin: 0 16px;
+}
+
+.user-card {
+  width: 120px;
+  padding: 8px;
+  border: 1px solid #333;
+  border-radius: 8px;
+  text-align: center;
+  background-color: #fff;
+}
+
+.user-card img {
+  width: 100%;
+  border-radius: 4px;
+}
+
+.username {
+  font-size: 14px;
+  font-weight: bold;
+  margin-top: 8px;
+}
+
+.follow-btn {
+  background-color: #333;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  padding: 4px 8px;
+  margin: 8px 0;
+  cursor: pointer;
+}
+
+.tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px;
+  font-size: 12px;
+  color: #666;
+}
+
+.tags span {
+  background-color: #f5f5f5;
+  border-radius: 4px;
+  padding: 2px 4px;
+}
+
+/* Trending Hashtags Section */
+.trending-hashtags {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  padding-bottom: 8px;
+  margin: 0 16px;
+}
+
+.hashtag-card {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px;
+  border: 1px solid #333;
+  border-radius: 8px;
+  background-color: #fff;
+}
+
+.hashtag-card img {
+  width: 50px;
+  height: 50px;
+  border-radius: 4px;
+}
+
+.explore-link {
+  display: block;
+  text-align: center;
+  margin-top: 12px;
+  font-size: 14px;
+  color: #333;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.search-page {
+  padding-bottom: 90px; /* Adjust to leave space for the 70px navigation */
+  min-height: 100vh;
+  overflow-y: auto;
+}

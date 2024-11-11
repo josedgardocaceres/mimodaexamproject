@@ -1,0 +1,65 @@
+/* likespage.css */
+
+.likes-page {
+  font-family: Arial, sans-serif;
+  color: #333;
+  padding-bottom: 70px; /* Space for bottom navigation */
+}
+
+/* Header Section with Beige Background */
+.likes-header {
+  background-color: #CBBCA6; /* Beige color */
+  padding: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.app-name {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+}
+
+.settings-icon {
+  font-size: 20px;
+  cursor: pointer;
+}
+
+/* Notifications List */
+.notifications-list {
+  padding: 16px;
+}
+
+.notification-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 16px;
+  border-bottom: 1px solid #eee;
+}
+
+.notification-content {
+  flex: 1;
+  font-size: 16px;
+}
+
+.notification-username {
+  font-weight: bold;
+}
+
+.notification-time {
+  display: block;
+  font-size: 12px;
+  color: #666;
+  margin-top: 4px;
+}
+
+.notification-image {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-left: 16px;
+}
+
